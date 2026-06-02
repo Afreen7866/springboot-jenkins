@@ -13,7 +13,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                bat 'java -jar target/*.jar'
+                bat 'dir target'
             }
         }
     }
