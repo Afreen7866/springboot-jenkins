@@ -3,11 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
+        /*stage('Clone') {
             steps {
                 git 'https://github.com/Afreen7866/springboot-demo.git'
             }
-        }
+        }*/
 
         stage('Build') {
             steps {
